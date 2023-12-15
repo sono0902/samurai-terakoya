@@ -1,0 +1,114 @@
+body{
+  font-family: "Noto Sans Japanese""Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* nav */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 960px;
+  /* width: 596px; */
+}
+nav a{
+  font-size: 34px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#home{
+  border: 1px solid black;
+  padding: 11px 28px 12px 29px;
+  margin-left: 20px;
+  
+}
+#menu a{
+  margin-left:35px ;
+  margin-right: 20px;
+}
+h1{
+  font-size: 34px;
+  margin-top: 50px;
+  margin-bottom: 22px;
+  /* !Sectionの中なので必要 */
+  width: 100%;
+  text-align: center;
+}
+p{
+  font-size: 18px;
+}
+.name{
+  font-size:24px;
+  font-weight:bold;
+}
+
+
+/* # カメラの写真 */
+#camera{
+  width: 100%;
+}
+
+/* #About */
+#about{
+ width: 100%;
+ align-items: center;
+}
+/* !タイトルのAboutはセクションの中に入れないほうがいい？ */
+#faces{
+  border-radius: 50%;
+  width: 141px;
+  height: 142px;
+  padding: 3px;
+  border: 3px solid #999;
+  margin-right: 10px;
+
+}
+/* 見本の.aboutと同じ */
+#face_pro{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* !片方だと間隔広がらない */
+  margin: 0 auto;
+}
+li{
+  font-size: 18px;
+}
+
+/* #works */
+#work{
+  width: 100%;
+}
+/* 見本worksと同じ */
+#items{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+}
+.item{
+  margin: 0 20px;
+  width: 25%;
+}
+.img{
+  width: 100%;
+}
+/* #フッター */
+footer{
+  font-size: 18px;
+}
+
+/* 横幅が767pxまでの場合 */
+/* !この量が普通？ */
+@media (max-width: 767px) {
+  .item {
+      width: 100%;
+      text-align: center;
+  }
+}
+
+
